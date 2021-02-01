@@ -1,0 +1,98 @@
+body{
+    background: url(https://github.com/aavichari24/project01/blob/master/1.jpeg?raw=true) no-repeat center center fixed;
+    background-size: auto;
+    font-family: Arial;
+    padding: 8px;
+}
+
+.Fields{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 110px;
+    justify-content: space-around;
+}
+
+.Fields div{
+    margin-right: 10px;
+}
+
+label{
+    margin: 15px;
+}
+
+.formContainer{
+    margin: 10px;
+    background-color: #efffc9;
+    padding: 7px 22px 17px 22px;
+    border: 1px solid rgb(191, 246, 250);
+    border-radius: 3px;
+}
+
+input[type="text"]{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label{
+    margin-left: 20px;
+    display: block;
+}
+
+.icon-formContainer{
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.checkout{
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.checkout:hover{
+    background-color:#45a049;
+}
+a{
+    color: black;
+}
+span.price{
+    float: right;
+    color: grey;
+}
+@media(max-width: 657px){
+    .Fields{
+        flex-direction: column-reverse;
+    }
+}
+
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);    
+    color: white;
+  }
+
+.btn{
+    font-size: 15px;
+    color: honeydew;
+    font-family: Arial;
+    padding: 10px 40px;
+    background-color: #243855;
+}
